@@ -1,0 +1,19 @@
+.place-grid__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place-grid__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+  .place-grid__text {
+    margin: 0 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.place-grid__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .place-grid__link {
+    margin: 0 16px;
+  }
+}

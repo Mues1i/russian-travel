@@ -2,8 +2,22 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  width: 640px;
-  height: 72px;
+  max-width: 640px;
   text-align: center;
-  margin: 32px 0 64px;
+  margin: 0 0 64px;
+}
+
+@media screen and (max-width: 1079px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
 }
