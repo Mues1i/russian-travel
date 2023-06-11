@@ -21,7 +21,7 @@
   .place-grid {
     grid-template-columns: 1fr calc((100% - 16px) / 2);
     gap: 48px 28px;
-    margin: 0 24px 50px;
+    margin: 0 24px 73px;
   }
 }
 
