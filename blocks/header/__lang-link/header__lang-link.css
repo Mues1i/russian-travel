@@ -4,7 +4,7 @@
   line-height: 28px;
   text-underline-offset: 4px;
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 @media screen and (max-width: 767px) {

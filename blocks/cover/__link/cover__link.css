@@ -3,18 +3,18 @@
   flex-direction: column;
   padding: calc((100% * 10 / 16 - 250px) / 2) 0;
   align-items: center;
-  color: white;
+  color: #fff;
   text-decoration: none;
   position: relative;
-  background-image: url(../../../image/railways.png);
+  background-image: url(../../../images/railways.png);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat:no-repeat;
   z-index: 0;
 }
 
-.cover__link:before {
-  content: "";
+.cover__link::before {
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
